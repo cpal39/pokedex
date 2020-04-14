@@ -1,0 +1,126 @@
+body {
+	background-color: #1a1b1c;
+	font-size: 14pt;
+	color: white;
+}
+
+.App {
+	text-align: center;
+}
+
+.home-body{
+	padding-left: 20%;
+	padding-right:20%;
+}
+
+.App-logo,.groudon {
+	height: 30vmin;
+	display: inline;
+}
+
+.App-logo{
+	float:right;
+	padding-right: 50px;
+}
+
+.App-logo:not(:active){
+	animation: App-logo-spin infinite 5s linear;
+}
+
+.groudon{
+	float:left;
+	padding-left: 50px;
+}
+
+.App-header {
+	background-color: #ee0000;
+	font-size: calc(10px + 2vmin);
+	color: white;
+	margin: 0 0 0 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+a.navLink {
+	color: white;
+	float: none;
+	display: inline-block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.navLink:hover {
+  background: #1a1b1c;
+  text-decoration: none;
+  color: #ee0000;
+}
+
+a.homeLink {
+	display: inline-block;
+	text-align: center;
+	float: none;
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.homeLink:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+.App-body {
+	padding-bottom: 50px;
+	background-color: #1a1b1c;
+
+}
+
+.previousButton {
+	float: left;
+	padding-left: 40%;
+
+}
+
+.nextButton {
+	float: right;
+	padding-right: 40%;
+}
+
+ul {
+	display: inline-block;
+	text-align:left;
+	color: white;
+}
+
+li{
+	color: white
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ee0000;
+}
+
+.tota11yWhy {
+	display: none;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
