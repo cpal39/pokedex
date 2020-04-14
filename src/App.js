@@ -14,7 +14,7 @@ import {BrowserRouter as Router, Route,Link,Switch} from 'react-router-dom';
 
 function App() {
 	return (
-		<BrowserRouter basename={process.env.PUBLIC_URL}>
+		<Router basename={process.env.PUBLIC_URL}>
 			<div className="App">
 				<header className="App-header">
 					<img src={groudon} className='groudon' alt='groudon'/>
@@ -46,7 +46,7 @@ function App() {
 				</Switch>
 				</div>
 			</div>
-		</BrowserRouter>
+		</Router>
 	);
 }
 
